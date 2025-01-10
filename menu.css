@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+#menu{
+       cursor: pointer;
+       height:150px;
+       width:100%;
+       background-image: linear-gradient(rgb(212, 52, 52),rgb(93, 6, 6),rgb(23, 0, 0));
+   } 
+#one{
+    height:85px;
+    width:390px;
+    display:flex;
+    overflow: hidden;
+    background-color: pink ;
+}
+
+#container{
+    display:flex;
+   position:relative;
+    gap:1rem;
+    top:-153px;
+    left:9.5rem;} 
+
+#nav{
+    display:flex;
+    height:35px;
+   position:relative;
+    width:90%;
+    top:-125px;
+    left:9.5rem; 
+   font-size:1.5rem;
+    justify-content: space-around;
+}
+a{
+    color:white;
+    text-decoration: none;
+} 

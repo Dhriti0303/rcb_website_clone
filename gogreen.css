@@ -1,0 +1,102 @@
+#main {
+    color:red;
+    padding:1rem;
+    font-size:3rem;
+}
+.des p{
+   color: black;
+   padding-left:2rem;
+}
+.des h1{
+    color:black;
+    padding:1rem;
+}
+main{
+    height:auto;
+    width:1000px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.des{
+    height:200px;
+    width:990px;
+    margin:1rem;
+    background-color: rgba(153, 151, 151, 0.265);
+    display:flex;
+text-align: left;
+}
+h2,h3,h5{
+    padding: 0.8rem;
+    text-align: left;
+}
+h5{
+    opacity: 0.7;
+}
+h3{
+    text-align: left;
+}
+li{
+    font-size: 1.2rem;
+    text-align: left;
+    padding:1rem;
+}
+main button{
+    background-color: red;
+    margin:1rem;
+    color:white;
+    font-size: 1.5rem;
+    height:50px; 
+    width:300px;
+    display:flex;
+    padding-top:0.7rem;
+    cursor: pointer;
+    padding-left:2.5rem;
+    border:none;
+    justify-content: left;
+
+}
+#login{
+height: 500px;
+width:700px;
+background-color: rgba(243, 242, 240, 0.875);
+position: relative;
+top:-3rem;
+left:20rem;
+overflow-y: scroll;
+display: none;
+}
+span{
+    padding:1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: right;
+}
+label{
+    display: flex;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+input{
+    margin: 2rem;
+    height:40px;
+    width:90%;
+}
+.yes{
+   height: 1.3rem;
+   width:10%;
+}
+#submit{
+    margin-bottom:1rem;
+    height:35px;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: red;
+    color:white;
+    font-size: 1.5rem;
+    border:none;
+
+}

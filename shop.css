@@ -1,0 +1,91 @@
+.item{
+    height:500px;
+    width:280px;
+    background-color: white;
+    border-radius: 10%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.category button{
+font-size: large;
+height:40px;
+width:80px;
+background-color:whitesmoke;
+border: white 1px solid;
+display:flex;
+place-content: center;
+padding-top:0.5rem;
+margin-left:1.5rem;
+}
+.cost{
+    padding: 0.7rem;
+    padding-left: 2rem;
+    font-size:large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.des{
+    padding-left:2rem;
+    font-size: 1.3rem;
+}
+.item img{
+    border-radius:  10% 10% 0% 0%;;
+}
+main div{
+    gap:1.3rem;
+    justify-content: center;
+}
+#main{
+    padding: 1rem;;
+    height:auto;
+    width:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main{
+    padding-left:auto;
+    padding-right: auto;
+    background-color: rgba(164, 163, 163, 0.375);
+}
+.login1{
+    background-image: url('fan.jfif');
+}
+#login{
+    display: none;
+    height:380px;
+    width:490px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(240, 248, 255, 0.616);
+}
+#login span{
+    font-size: 2rem;
+    padding-left: 1rem;
+    color: red;
+    cursor: pointer;
+}
+.login h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(78, 78, 78);
+    padding:2rem;
+}
+label{
+font-size: 1.5rem;
+margin-left: 2rem;
+margin:2rem;
+}
+input{
+    height:40px;
+    width:390px;
+    margin:1rem;
+    margin-left: 2rem;
+}
+#login button{
+    height:40px;
+    width:250px;
+    background-color: red;
+    color: wheat;
+    font-size: 1.4rem;
+    margin-left:7rem;;
+}
